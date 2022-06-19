@@ -60,6 +60,6 @@ ExpiresByType image/svg+xml "access plus 1 year"
 </IfModule>
 FileETag None
 
-<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">  
+<FilesMatch ".(svg|gif|jpg|jpeg|png|ico|js|css)$">  
 Header set Cache-Control "max-age=2592000"  
 </FilesMatch>  
